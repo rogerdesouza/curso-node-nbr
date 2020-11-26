@@ -1,0 +1,28 @@
+Comandos node.js
+
+#Versão do node instalada
+    node --version
+#Versão do npm instalada
+    npm --version
+#Criar novo projeto
+    npm init
+#Criar projeto padrão sem configurar perguntas
+    npm init -y
+#Para rodar o main do projeto
+    node nomedoarquivo.js ou node .
+#Para rodar scripts criados no package.json
+    npm run nomedoscript
+#Para instalar uma lib
+    npm instal nomedalib ou npm i nomedalib (local no projeto)
+    npm instal -global nomedalib ou npm i -g nomedalib (global)
+    #Serve para configurar o projeto para enxergar uma lib (ex mocha)
+        npm instal --save-dev nomedalib (local apenas para desenvolvimento)
+
+
+------------
+
+
+Comandos linux
+
+Ver o conteudo do arquivo no console sem abrir: cat nomedoarquivo.txt
+Criar arquivo: touch nomedoarquivo.js
